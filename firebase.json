@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/reservation-app",
+    "public": "dist\\reservation-app",
     "ignore": [
       "firebase.json",
       "**/.*",

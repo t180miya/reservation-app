@@ -5,11 +5,12 @@
     "node":"12.18.2",
     "npm":"6.9.0"
   },
+  "homepage": ".",
   "scripts": {
     "ng": "ng",
     "start": "npm run start --prefix server",
     "start-dev": "ng serve --proxy-config proxy.conf.json",
-    "build": "ng build --prod",
+    "build": "ng build --configuration production",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
